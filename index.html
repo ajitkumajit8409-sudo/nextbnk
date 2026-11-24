@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO ============ -->
+  <title>Next Byte Bank | Banking Made Smarter, Faster &amp; More Secure</title>
+  <meta name="description" content="Next Byte Bank - Next generation internet banking with instant fund transfers, smart loans, credit cards, fixed deposits, QR &amp; UPI ready payments and 24x7 secure online banking.">
+  <meta name="keywords" content="Next Byte Bank, internet banking, online banking, savings account, fixed deposit, personal loan, home loan, credit card, UPI, net banking">
+  <meta name="author" content="Next Byte Bank">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.nextbytebank.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Next Byte Bank | Banking Made Smarter, Faster &amp; More Secure">
+  <meta property="og:description" content="Experience next-generation digital banking with secure transactions, instant fund transfers and smart loan management.">
+  <meta property="og:site_name" content="Next Byte Bank">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0D47A1">
+
+  <!-- ============ Fonts ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- ============ Favicon ============ -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- ============ Bootstrap 5 + Icons ============ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- ============ Custom CSS ============ -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ================= PRELOADER ================= -->
+  <div class="preloader" id="preloader" role="status" aria-label="Loading">
+    <div class="preloader__inner">
+      <div class="preloader__logo">
+        <svg viewBox="0 0 100 100" width="64" height="64" aria-hidden="true">
+          <rect width="100" height="100" rx="26" fill="#0D47A1"/>
+          <path d="M30 70V30l40 40V30" stroke="#FFC107" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+      </div>
+      <div class="preloader__bar"><span></span></div>
+      <p class="preloader__text">Securing your session…</p>
+    </div>
+  </div>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="navbar-wrap" id="navbar">
+    <nav class="navbar navbar-expand-lg site-nav py-2" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="Next Byte Bank home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 100 100" width="38" height="38">
+              <rect width="100" height="100" rx="26" fill="url(#brandGrad)"/>
+              <path d="M30 70V30l40 40V30" stroke="#FFC107" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <defs>
+                <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#0D47A1"/><stop offset="1" stop-color="#1565C0"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <span class="brand-name"><strong>Next Byte</strong><span>Bank</span></span>
+            <small>Banking Made Smarter</small>
+          </span>
+        </a>
+
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <button type="button" class="icon-btn d-none d-sm-inline-flex" id="navSearchBtn" aria-label="Search" title="Search">
+            <i class="bi bi-search"></i>
+          </button>
+          <button type="button" class="icon-btn position-relative" aria-label="Notifications" title="Notifications">
+            <i class="bi bi-bell"></i>
+            <span class="badge-dot" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <i class="bi bi-moon-stars" id="themeIcon"></i>
+          </button>
+          <a href="#contact" class="btn btn-ghost d-none d-md-inline-flex"><i class="bi bi-box-arrow-in-right me-1"></i> Login</a>
+          <a href="#contact" class="btn btn-gold ripple">Open Account</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                  aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-bar"></span><span class="toggler-bar"></span><span class="toggler-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-lg-2" id="mainNav">
+          <ul class="navbar-nav mx-auto gap-lg-1">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Personal Banking</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Business Banking</a></li>
+            <li class="nav-item"><a class="nav-link" href="#loans">Loans</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Cards</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#why">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Search overlay -->
+    <div class="search-bar" id="searchBar" hidden>
+      <div class="container d-flex align-items-center gap-3">
+        <i class="bi bi-search"></i>
+        <input type="search" id="siteSearch" placeholder="Search for services, loans, cards…" aria-label="Search site">
+        <button type="button" class="icon-btn" id="searchClose" aria-label="Close search"><i class="bi bi-x-lg"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+        <div class="grid-overlay"></div>
+        <div class="float-chip chip-1"><i class="bi bi-phone"></i></div>
+        <div class="float-chip chip-2"><i class="bi bi-credit-card"></i></div>
+        <div class="float-chip chip-3"><i class="bi bi-shield-lock"></i></div>
+        <div class="float-chip chip-4"><i class="bi bi-graph-up-arrow"></i></div>
+        <div class="float-chip chip-5"><i class="bi bi-wallet2"></i></div>
+      </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <span class="eyebrow"><i class="bi bi-patch-check-fill"></i> RBI Licensed • DICGC Insured up to ₹5 Lakh</span>
+          <h1>Banking Made <span class="grad-text">Smarter, Faster</span> &amp; More Secure.</h1>
+          <p class="lead">
+            Experience next-generation digital banking with secure transactions, instant fund transfers,
+            smart loan management, and 24×7 online services.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn-gold btn-lg ripple"><i class="bi bi-person-plus-fill me-2"></i>Open Account</a>
+            <a href="#features" class="btn btn-glass btn-lg"><i class="bi bi-globe2 me-2"></i>Internet Banking</a>
+          </div>
+
+          <ul class="hero__trust">
+            <li><i class="bi bi-check2-circle"></i> Zero balance savings</li>
+            <li><i class="bi bi-check2-circle"></i> Instant IMPS/NEFT</li>
+            <li><i class="bi bi-check2-circle"></i> 256-bit encryption</li>
+          </ul>
+
+          <div class="hero__users">
+            <div class="avatars" aria-hidden="true">
+              <span style="--i:0">AK</span><span style="--i:1">RS</span><span style="--i:2">MJ</span><span style="--i:3">PV</span>
+            </div>
+            <div>
+              <div class="stars" aria-label="Rated 4.9 out of 5">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <strong>4.9/5</strong>
+              </div>
+              <small>Trusted by 500,000+ happy customers</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero illustration -->
+        <div class="hero__art reveal" aria-hidden="true">
+          <div class="phone-card">
+            <div class="phone-card__notch"></div>
+            <div class="phone-card__head">
+              <small>Good morning,</small>
+              <strong>Ajay Kumar</strong>
+            </div>
+            <div class="balance-card">
+              <small>Total Balance</small>
+              <h3>₹ 4,82,650.<span>00</span></h3>
+              <div class="mini-chart">
+                <svg viewBox="0 0 220 60" preserveAspectRatio="none">
+                  <path class="chart-line" d="M0,48 C25,44 35,20 60,26 C85,32 95,10 120,16 C150,23 165,6 190,12 L220,6"/>
+                  <path class="chart-fill" d="M0,48 C25,44 35,20 60,26 C85,32 95,10 120,16 C150,23 165,6 190,12 L220,6 L220,60 L0,60 Z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="quick-actions">
+              <div><i class="bi bi-arrow-up-right"></i><small>Send</small></div>
+              <div><i class="bi bi-arrow-down-left"></i><small>Receive</small></div>
+              <div><i class="bi bi-qr-code"></i><small>Scan</small></div>
+              <div><i class="bi bi-receipt"></i><small>Bills</small></div>
+            </div>
+            <div class="txn-row"><span class="txn-ic"><i class="bi bi-bag"></i></span><div><strong>Shopping</strong><small>Today · 10:24 AM</small></div><b class="neg">- ₹1,299</b></div>
+            <div class="txn-row"><span class="txn-ic in"><i class="bi bi-arrow-down-left"></i></span><div><strong>Salary Credit</strong><small>Yesterday</small></div><b class="pos">+ ₹72,000</b></div>
+          </div>
+
+          <div class="glass-float credit-float">
+            <div class="credit-chip">
+              <div class="cc-top"><span>Next Byte</span><i class="bi bi-wifi-high-fill"></i></div>
+              <div class="cc-num">4829 •••• •••• 7734</div>
+              <div class="cc-bot"><span>AJAY KUMAR</span><span>09/30</span></div>
+            </div>
+          </div>
+
+          <div class="glass-float shield-float">
+            <i class="bi bi-shield-check"></i>
+            <div><strong>Secure</strong><small>256-bit SSL</small></div>
+          </div>
+
+          <div class="glass-float growth-float">
+            <div class="growth-head"><i class="bi bi-graph-up-arrow"></i> Savings Growth</div>
+            <div class="growth-bars">
+              <span style="--h:38%"></span><span style="--h:55%"></span><span style="--h:44%"></span>
+              <span style="--h:72%"></span><span style="--h:63%"></span><span style="--h:92%"></span>
+            </div>
+            <small class="up">▲ 18.4% this year</small>
+          </div>
+
+          <div class="glass-float happy-float">
+            <div class="avatars sm" aria-hidden="true"><span>J</span><span>S</span><span>N</span></div>
+            <div><strong>Happy Customers</strong><small>5,000+ reviews</small></div>
+          </div>
+        </div>
+      </div>
+
+      <a class="hero__scroll" href="#services" aria-label="Scroll to services">
+        <span></span>Scroll
+      </a>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Personal Banking</span><span>•</span><span>Business Banking</span><span>•</span><span>Home Loan</span><span>•</span>
+        <span>Credit Cards</span><span>•</span><span>Fixed Deposit</span><span>•</span><span>UPI &amp; QR Payments</span><span>•</span>
+        <span>24×7 Support</span><span>•</span>
+        <span>Personal Banking</span><span>•</span><span>Business Banking</span><span>•</span><span>Home Loan</span><span>•</span>
+        <span>Credit Cards</span><span>•</span><span>Fixed Deposit</span><span>•</span><span>UPI &amp; QR Payments</span><span>•</span>
+        <span>24×7 Support</span><span>•</span>
+      </div>
+    </div>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-grid-3x3-gap-fill"></i> Banking Services</span>
+          <h2>Everything your money needs, <span class="grad-text">in one place</span></h2>
+          <p>From everyday accounts to powerful credit products — designed for students, professionals, business owners and families.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon blue"><i class="bi bi-piggy-bank-fill"></i></span>
+            <h3>Savings Account</h3>
+            <p>Zero balance account with up to 7% interest and unlimited free transactions.</p>
+            <a href="#contact" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon gold"><i class="bi bi-briefcase-fill"></i></span>
+            <h3>Current Account</h3>
+            <p>Unlimited cash deposits, free RTGS/NEFT and a dedicated relationship manager.</p>
+            <a href="#contact" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon green"><i class="bi bi-safe2-fill"></i></span>
+            <h3>Fixed Deposit</h3>
+            <p>Lock high returns from 6.75% p.a. with premature withdrawal flexibility.</p>
+            <a href="#contact" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon violet"><i class="bi bi-person-badge-fill"></i></span>
+            <h3>Personal Loan</h3>
+            <p>Instant approval up to ₹25 Lakh with paperwork-free digital processing.</p>
+            <a href="#loans" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon cyan"><i class="bi bi-house-heart-fill"></i></span>
+            <h3>Home Loan</h3>
+            <p>Own your dream home with loans up to ₹5 Cr and 30-year flexible tenure.</p>
+            <a href="#loans" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon orange"><i class="bi bi-car-front-fill"></i></span>
+            <h3>Car Loan</h3>
+            <p>Drive home a new or pre-owned car with 100% on-road funding.</p>
+            <a href="#loans" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon pink"><i class="bi bi-mortarboard-fill"></i></span>
+            <h3>Education Loan</h3>
+            <p>Fund your ambitions with moratorium periods and collateral-free options.</p>
+            <a href="#loans" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+
+          <div class="col-6 col-md-4 col-xl-3 reveal"><article class="service-card">
+            <span class="svc-icon indigo"><i class="bi bi-credit-card-2-front-fill"></i></span>
+            <h3>Credit Card</h3>
+            <p>Lifetime free cards with cashback, lounge access and instant virtual card.</p>
+            <a href="#contact" class="link-arrow">Learn More <i class="bi bi-arrow-right"></i></a>
+          </article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="section section-alt" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-cpu-fill"></i> Digital Banking</span>
+          <h2>Banking that moves at <span class="grad-text">the speed of you</span></h2>
+          <p>Powerful digital tools built on modern technology — available on web, mobile and beyond.</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch">
+          <div class="col-lg-6 reveal">
+            <div class="feature-panel glass-panel">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic"><i class="bi bi-lightning-charge-fill"></i></span>
+                    <div><h4>Instant Money Transfer</h4><p>IMPS, NEFT &amp; RTGS credited in seconds, 24×7.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic gold"><i class="bi bi-clock-fill"></i></span>
+                    <div><h4>24×7 Banking</h4><p>Never close, never sleep — bank any time you want.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic green"><i class="bi bi-phone-fill"></i></span>
+                    <div><h4>Mobile Banking</h4><p>Full-featured app with biometric login support.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic violet"><i class="bi bi-globe2"></i></span>
+                    <div><h4>Internet Banking</h4><p>Seamless net banking for every account type.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="feature-panel glass-panel">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic orange"><i class="bi bi-receipt-cutoff"></i></span>
+                    <div><h4>Bill Payments</h4><p>Electricity, DTH, broadband &amp; 500+ billers.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic cyan"><i class="bi bi-qr-code-scan"></i></span>
+                    <div><h4>QR Payments</h4><p>Scan, pay and get paid with dynamic QR codes.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic pink"><i class="bi bi-phone-vibrate"></i></span>
+                    <div><h4>UPI Support</h4><p>Future-ready UPI handle &amp; autopay mandates.</p></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="feature-item">
+                    <span class="fi-ic blue"><i class="bi bi-fingerprint"></i></span>
+                    <div><h4>Secure Authentication</h4><p>OTP, biometric, device binding &amp; anti-fraud AI.</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= WHY CHOOSE ================= -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-award-fill"></i> Why Choose Us</span>
+          <h2>Why 500,000+ customers choose <span class="grad-text">Next Byte Bank</span></h2>
+          <p>Trust earned through technology, transparency and tireless customer care.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">01</span>
+            <span class="why-ic"><i class="bi bi-shield-lock-fill"></i></span>
+            <h4>Bank-Level Security</h4>
+            <p>256-bit encryption, device binding, AI fraud monitoring and RBI-compliant infrastructure.</p>
+          </div></div>
+
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">02</span>
+            <span class="why-ic gold"><i class="bi bi-speedometer2"></i></span>
+            <h4>Fast Transactions</h4>
+            <p>Sub-second fund transfers with real-time status tracking and instant notifications.</p>
+          </div></div>
+
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">03</span>
+            <span class="why-ic green"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+            <h4>Trusted Banking</h4>
+            <p>Transparent pricing, no hidden charges and DICGC insurance on deposits up to ₹5 Lakh.</p>
+          </div></div>
+
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">04</span>
+            <span class="why-ic violet"><i class="bi bi-cpu-fill"></i></span>
+            <h4>Modern Technology</h4>
+            <p>Cloud-native core banking, API-first platform and 99.99% uptime architecture.</p>
+          </div></div>
+
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">05</span>
+            <span class="why-ic orange"><i class="bi bi-headset"></i></span>
+            <h4>24×7 Customer Support</h4>
+            <p>Live chat, toll-free helpline and branch assistance — help is always one tap away.</p>
+          </div></div>
+
+          <div class="col-md-6 col-lg-4 reveal"><div class="why-card">
+            <span class="why-num">06</span>
+            <span class="why-ic cyan"><i class="bi bi-geo-alt-fill"></i></span>
+            <h4>Nationwide Banking</h4>
+            <p>150+ branches, 400+ ATMs and universal account portability across India.</p>
+          </div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= STATISTICS ================= -->
+    <section class="stats" id="stats" aria-label="Bank statistics">
+      <div class="stats__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat"><h3><span class="counter" data-target="500" data-suffix="K+">0</span></h3><p>Happy Customers</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat"><h3>₹<span class="counter" data-target="1000" data-suffix=" Cr+">0</span></h3><p>Transactions Processed</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat"><h3><span class="counter" data-target="150" data-suffix="+">0</span></h3><p>Branches Nationwide</p></div>
+          </div>
+          <div class="col-6 col-lg-3 reveal">
+            <div class="stat"><h3><span class="counter" data-target="99.99" data-decimals="2" data-suffix="%">0</span></h3><p>Secure Banking Uptime</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LOANS ================= -->
+    <section class="section section-alt" id="loans">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-cash-coin"></i> Loans &amp; Advances</span>
+          <h2>Loans with rates you'll <span class="grad-text">actually love</span></h2>
+          <p>Quick eligibility check, digital documentation and disbursal in as little as 24 hours.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3 reveal">
+            <article class="loan-card">
+              <div class="loan-top"><span class="loan-ic"><i class="bi bi-person-badge-fill"></i></span><span class="pill">Popular</span></div>
+              <h3>Personal Loan</h3>
+              <div class="rate"><strong>10.25</strong><span>%<br><small>p.a. onwards</small></span></div>
+              <ul class="loan-meta">
+                <li><span>Amount</span><b>₹50K – ₹25 L</b></li>
+                <li><span>Tenure</span><b>12 – 60 months</b></li>
+                <li><span>Processing</span><b>Zero fees*</b></li>
+              </ul>
+              <div class="loan-btns">
+                <a href="#contact" class="btn btn-gold w-100 ripple">Apply Now</a>
+                <button type="button" class="btn btn-soft w-100" data-bs-toggle="modal" data-bs-target="#emiModal" data-loan="Personal Loan" data-rate="10.25" data-amount="500000" data-tenure="36">
+                  <i class="bi bi-calculator me-1"></i> EMI Calculator
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3 reveal">
+            <article class="loan-card">
+              <div class="loan-top"><span class="loan-ic blue"><i class="bi bi-house-heart-fill"></i></span><span class="pill dark">Best Value</span></div>
+              <h3>Home Loan</h3>
+              <div class="rate"><strong>8.40</strong><span>%<br><small>p.a. onwards</small></span></div>
+              <ul class="loan-meta">
+                <li><span>Amount</span><b>Up to ₹5 Cr</b></li>
+                <li><span>Tenure</span><b>Up to 30 yrs</b></li>
+                <li><span>Balance Transfer</span><b>Available</b></li>
+              </ul>
+              <div class="loan-btns">
+                <a href="#contact" class="btn btn-gold w-100 ripple">Apply Now</a>
+                <button type="button" class="btn btn-soft w-100" data-bs-toggle="modal" data-bs-target="#emiModal" data-loan="Home Loan" data-rate="8.40" data-amount="3000000" data-tenure="180">
+                  <i class="bi bi-calculator me-1"></i> EMI Calculator
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3 reveal">
+            <article class="loan-card">
+              <div class="loan-top"><span class="loan-ic green"><i class="bi bi-car-front-fill"></i></span><span class="pill green">Quick</span></div>
+              <h3>Car Loan</h3>
+              <div class="rate"><strong>9.10</strong><span>%<br><small>p.a. onwards</small></span></div>
+              <ul class="loan-meta">
+                <li><span>Amount</span><b>Up to 100%*</b></li>
+                <li><span>Tenure</span><b>12 – 84 months</b></li>
+                <li><span>Approval</span><b>Same day</b></li>
+              </ul>
+              <div class="loan-btns">
+                <a href="#contact" class="btn btn-gold w-100 ripple">Apply Now</a>
+                <button type="button" class="btn btn-soft w-100" data-bs-toggle="modal" data-bs-target="#emiModal" data-loan="Car Loan" data-rate="9.10" data-amount="900000" data-tenure="60">
+                  <i class="bi bi-calculator me-1"></i> EMI Calculator
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-xl-3 reveal">
+            <article class="loan-card">
+              <div class="loan-top"><span class="loan-ic violet"><i class="bi bi-mortarboard-fill"></i></span><span class="pill violet">Students</span></div>
+              <h3>Education Loan</h3>
+              <div class="rate"><strong>9.75</strong><span>%<br><small>p.a. onwards</small></span></div>
+              <ul class="loan-meta">
+                <li><span>Amount</span><b>Up to ₹50 L</b></li>
+                <li><span>Repayment</span><b>After course</b></li>
+                <li><span>Collateral</span><b>Not required*</b></li>
+              </ul>
+              <div class="loan-btns">
+                <a href="#contact" class="btn btn-gold w-100 ripple">Apply Now</a>
+                <button type="button" class="btn btn-soft w-100" data-bs-toggle="modal" data-bs-target="#emiModal" data-loan="Education Loan" data-rate="9.75" data-amount="1000000" data-tenure="84">
+                  <i class="bi bi-calculator me-1"></i> EMI Calculator
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <p class="text-center text-secondary small mt-4 reveal">*Interest rates and offers are illustrative and subject to bank policy &amp; eligibility.</p>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-chat-heart-fill"></i> Testimonials</span>
+          <h2>Loved by customers, <span class="grad-text">backed by results</span></h2>
+          <p>Real stories from real customers who bank with Next Byte every day.</p>
+        </div>
+
+        <div id="testimonialCarousel" class="carousel slide carousel-fade reveal" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <figure class="t-card">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <blockquote>My home loan was approved in under 24 hours with zero branch visits. The interface is so clean that my parents now use net banking without any help.</blockquote>
+                <figcaption>
+                  <span class="t-av" style="--c1:#0D47A1;--c2:#1976D2">AK</span>
+                  <div><strong>Ajay Kumar</strong><small>Software Engineer, Bengaluru</small></div>
+                  <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="t-card">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <blockquote>As a small business owner, unlimited free NEFT and the current account dashboard changed how I manage cash flow. Settlements are genuinely instant.</blockquote>
+                <figcaption>
+                  <span class="t-av" style="--c1:#FF8F00;--c2:#FFC107">RS</span>
+                  <div><strong>Riya Sharma</strong><small>Founder, Handloom Studio</small></div>
+                  <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="t-card">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <blockquote>The education loan with a moratorium period took the pressure off my family. Support answered on chat within a minute at 11 PM — that's rare.</blockquote>
+                <figcaption>
+                  <span class="t-av" style="--c1:#2E7D32;--c2:#66BB6A">MJ</span>
+                  <div><strong>Manoj Joshi</strong><small>PG Student, Pune</small></div>
+                  <div class="stars" aria-label="5 out of 5 stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MOBILE BANKING ================= -->
+    <section class="section mobile-promo" id="mobile">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6 reveal">
+            <span class="eyebrow"><i class="bi bi-phone-fill"></i> Mobile Banking</span>
+            <h2>Your bank, <span class="grad-text">in your pocket</span></h2>
+            <p class="lead">Download the Next Byte app for one-tap transfers, bill payments, card controls and smart spending insights.</p>
+
+            <ul class="app-points">
+              <li><i class="bi bi-check-circle-fill"></i> Face ID &amp; fingerprint login</li>
+              <li><i class="bi bi-check-circle-fill"></i> Instant card block / unblock</li>
+              <li><i class="bi bi-check-circle-fill"></i> Expense analytics &amp; monthly reports</li>
+              <li><i class="bi bi-check-circle-fill"></i> Zero fees on UPI &amp; in-app transfers</li>
+            </ul>
+
+            <div class="d-flex flex-wrap align-items-center gap-3 mt-4">
+              <a href="#" class="store-btn" aria-label="Download on the App Store">
+                <i class="bi bi-apple"></i><span><small>Download on the</small><strong>App Store</strong></span>
+              </a>
+              <a href="#" class="store-btn" aria-label="Get it on Google Play">
+                <i class="bi bi-google-play"></i><span><small>GET IT ON</small><strong>Google Play</strong></span>
+              </a>
+              <div class="qr-box" aria-label="QR code to download the app">
+                <div class="qr" aria-hidden="true"></div>
+                <small>Scan to download</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 reveal">
+            <div class="app-stage" aria-hidden="true">
+              <div class="app-phone">
+                <div class="app-notch"></div>
+                <div class="app-screen">
+                  <div class="app-status"><span>9:41</span><span><i class="bi bi-wifi"></i> <i class="bi bi-battery-full"></i></span></div>
+                  <div class="app-hi">Hi, Ajay 👋</div>
+                  <div class="app-balance">
+                    <small>Savings · ••7734</small>
+                    <h4>₹4,82,650.00</h4>
+                    <div class="app-actions"><span><i class="bi bi-arrow-up-right"></i>Send</span><span><i class="bi bi-plus-lg"></i>Add</span><span><i class="bi bi-qr-code"></i>Scan</span></div>
+                  </div>
+                  <div class="app-list">
+                    <div><span class="ai in"><i class="bi bi-arrow-down-left"></i></span><div><b>Salary</b><small>Credit</small></div><strong>+₹72,000</strong></div>
+                    <div><span class="ai"><i class="bi bi-bag"></i></span><div><b>Shopping</b><small>UPI</small></div><strong>-₹1,299</strong></div>
+                    <div><span class="ai"><i class="bi bi-lightbulb"></i></span><div><b>Electricity</b><small>Bill</small></div><strong>-₹2,140</strong></div>
+                  </div>
+                </div>
+              </div>
+              <div class="app-orbit"></div>
+              <div class="app-badge b1"><i class="bi bi-shield-lock-fill"></i> 100% Secure</div>
+              <div class="app-badge b2"><i class="bi bi-bolt-fill"></i> Instant Transfers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4 reveal">
+            <span class="eyebrow"><i class="bi bi-question-circle-fill"></i> FAQ</span>
+            <h2>Questions? <span class="grad-text">Answered.</span></h2>
+            <p>Everything you need to know about opening an account and banking online with Next Byte Bank.</p>
+            <a href="#contact" class="btn btn-outline-light btn-lg mt-3 ripple"><i class="bi bi-headset me-2"></i>Ask a Question</a>
+          </div>
+
+          <div class="col-lg-8 reveal">
+            <div class="accordion custom-accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                    How do I open a savings account online?
+                  </button>
+                </h3>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Click <strong>Open Account</strong>, keep your PAN, Aadhaar and a selfie ready, complete video KYC in under 5 minutes, and your account number is generated instantly.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                    Is internet banking safe to use?
+                  </button>
+                </h3>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Yes. We use 256-bit TLS encryption, device binding, login OTPs, anti-phishing keys and 24×7 AI fraud monitoring. Never share your OTP or password with anyone.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                    What interest rate do you offer on Fixed Deposits?
+                  </button>
+                </h3>
+                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">FD rates start at <strong>6.75% p.a.</strong> for 12 months, with an extra 0.25% for senior citizens. Premature withdrawal is allowed with a nominal penalty.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                    How quickly can I get a loan approved?
+                  </button>
+                </h3>
+                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Personal and car loans are typically approved within a few hours and disbursed within 24–48 hours once your income and identity documents are verified.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                    Are there any hidden charges on digital transactions?
+                  </button>
+                </h3>
+                <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">No. UPI, IMPS, NEFT and RTGS transfers from the app and net banking are free. All applicable charges are listed transparently in our Schedule of Charges.</div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                    What should I do if I lose my debit card?
+                  </button>
+                </h3>
+                <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Block it instantly from the mobile app under <strong>Cards → Block</strong>, or call our 24×7 helpline at 1800-000-4629. Reissue takes only 3 working days.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow"><i class="bi bi-envelope-fill"></i> Get In Touch</span>
+          <h2>Let's start banking <span class="grad-text">smarter together</span></h2>
+          <p>Fill in the form and our relationship manager will reach out within one business day.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-7 reveal">
+            <form class="contact-form glass-panel" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="cfName" class="form-label">Full Name *</label>
+                  <input type="text" class="form-control" id="cfName" placeholder="Enter your full name" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="cfEmail" class="form-label">Email Address *</label>
+                  <input type="email" class="form-control" id="cfEmail" placeholder="you@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="cfPhone" class="form-label">Mobile Number *</label>
+                  <input type="tel" class="form-control" id="cfPhone" placeholder="+91 98765 43210" pattern="[0-9+ ]{10,15}" required>
+                  <div class="invalid-feedback">Please enter a valid mobile number.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="cfService" class="form-label">Interested In</label>
+                  <select class="form-select" id="cfService">
+                    <option>Savings Account</option><option>Current Account</option><option>Fixed Deposit</option>
+                    <option>Personal Loan</option><option>Home Loan</option><option>Car Loan</option>
+                    <option>Education Loan</option><option>Credit Card</option><option>Business Banking</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="cfMsg" class="form-label">Message</label>
+                  <textarea class="form-control" id="cfMsg" rows="4" placeholder="Tell us how we can help…"></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="cfConsent" required>
+                    <label class="form-check-label small" for="cfConsent">I agree to the Privacy Policy and consent to be contacted.</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-gold btn-lg px-5 ripple"><i class="bi bi-send-fill me-2"></i>Send Enquiry</button>
+                  <div class="form-alert" id="formAlert" role="status" aria-live="polite"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-lg-5 reveal">
+            <div class="contact-info glass-panel">
+              <div class="ci-item"><span><i class="bi bi-geo-alt-fill"></i></span><div><h5>Head Office</h5><p>Next Byte Bank Tower, Level 12,<br>MG Road, Bengaluru – 560001, Karnataka, India</p></div></div>
+              <div class="ci-item"><span><i class="bi bi-envelope-fill"></i></span><div><h5>Email Us</h5><p><a href="mailto:care@nextbytebank.com">care@nextbytebank.com</a><br><a href="mailto:business@nextbytebank.com">business@nextbytebank.com</a></p></div></div>
+              <div class="ci-item"><span><i class="bi bi-telephone-fill"></i></span><div><h5>Call Us</h5><p><a href="tel:+9118000004629">1800-000-4629</a> (Toll Free, 24×7)<br><a href="tel:+918045678900">+91 80 4567 8900</a></p></div></div>
+
+              <div class="map-placeholder" role="img" aria-label="Map showing Next Byte Bank head office location">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Bengaluru, Karnataka</span>
+                <small>Google Map Placeholder</small>
+              </div>
+
+              <div class="socials">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Twitter / X"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA BAND ================= -->
+    <section class="cta-band">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 text-center text-md-start">
+        <div>
+          <h3>Ready to open your account in 5 minutes?</h3>
+          <p class="mb-0">Zero balance. Instant digital KYC. No paperwork.</p>
+        </div>
+        <div class="d-flex gap-2 flex-wrap justify-content-center">
+          <a href="#contact" class="btn btn-gold btn-lg ripple">Open Account</a>
+          <a href="#contact" class="btn btn-glass btn-lg">Talk to Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="row g-4 pt-5">
+        <div class="col-lg-4 col-md-6">
+          <a class="d-inline-flex align-items-center gap-2 text-decoration-none mb-3" href="#home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 100 100" width="36" height="36">
+                <rect width="100" height="100" rx="26" fill="#0D47A1"/>
+                <path d="M30 70V30l40 40V30" stroke="#FFC107" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </span>
+            <strong class="text-white fs-5">Next Byte <span class="text-gold">Bank</span></strong>
+          </a>
+          <p class="footer-about">Banking Made Smarter, Faster &amp; More Secure. A next-generation digital bank built for students, professionals, businesses and families across India.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>About Us</h6>
+          <ul>
+            <li><a href="#why">Our Story</a></li>
+            <li><a href="#stats">Vision &amp; Mission</a></li>
+            <li><a href="#testimonials">Customer Reviews</a></li>
+            <li><a href="#contact">Leadership</a></li>
+            <li><a href="#contact">Press &amp; Media</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>Banking Services</h6>
+          <ul>
+            <li><a href="#services">Savings Account</a></li>
+            <li><a href="#services">Fixed Deposit</a></li>
+            <li><a href="#loans">Home Loan</a></li>
+            <li><a href="#loans">Personal Loan</a></li>
+            <li><a href="#services">Credit Cards</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>Customer Support</h6>
+          <ul>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#contact">Help Centre</a></li>
+            <li><a href="#contact">Report Fraud</a></li>
+            <li><a href="#contact">Branch Locator</a></li>
+            <li><a href="tel:+9118000004629">1800-000-4629</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-6">
+          <h6>Company</h6>
+          <ul>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-badges">
+        <span><i class="bi bi-shield-check"></i> 256-bit SSL Secured</span>
+        <span><i class="bi bi-patch-check-fill"></i> RBI Licensed</span>
+        <span><i class="bi bi-cash-stack"></i> DICGC Insured</span>
+        <span><i class="bi bi-people-fill"></i> 500K+ Customers</span>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="mb-0">© <span id="year">2026</span> Next Byte Bank. All rights reserved. | An AI-generated demo UI, ready for Java JSP · Servlet · JDBC · MySQL · Tomcat integration.</p>
+        <ul>
+          <li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= BACK TO TOP ================= -->
+  <button type="button" class="to-top" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- ================= EMI MODAL ================= -->
+  <div class="modal fade" id="emiModal" tabindex="-1" aria-labelledby="emiModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content emi-modal">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="emiModalLabel"><i class="bi bi-calculator-fill text-gold me-2"></i>EMI Calculator</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="text-white-50 small mb-4" id="emiLoanName">Personal Loan</p>
+
+          <label class="form-label" for="emiAmount">Loan Amount — <b id="emiAmountLabel">₹5,00,000</b></label>
+          <input type="range" class="form-range" id="emiAmount" min="50000" max="5000000" step="10000" value="500000">
+
+          <label class="form-label mt-3" for="emiTenure">Tenure — <b id="emiTenureLabel">36 months</b></label>
+          <input type="range" class="form-range" id="emiTenure" min="12" max="240" step="6" value="36">
+
+          <label class="form-label mt-3" for="emiRate">Interest Rate — <b id="emiRateLabel">10.25%</b></label>
+          <input type="range" class="form-range" id="emiRate" min="5" max="24" step="0.05" value="10.25">
+
+          <div class="emi-result">
+            <div><small>Monthly EMI</small><strong id="emiOut">₹16,234</strong></div>
+            <div><small>Total Interest</small><strong id="emiInterest">₹84,424</strong></div>
+            <div><small>Total Payment</small><strong id="emiTotal">₹5,84,424</strong></div>
+          </div>
+        </div>
+        <div class="modal-footer border-0">
+          <a href="#contact" class="btn btn-gold w-100 ripple" data-bs-dismiss="modal">Apply for this Loan</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

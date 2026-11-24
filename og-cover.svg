@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Next Byte Bank">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061B3E"/>
+      <stop offset="0.55" stop-color="#0D47A1"/>
+      <stop offset="1" stop-color="#082E66"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFD54F"/>
+      <stop offset="1" stop-color="#FFB300"/>
+    </linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0v60" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1030" cy="120" r="190" fill="#FFC107" fill-opacity="0.16"/>
+  <circle cx="150" cy="540" r="150" fill="#4DD0E1" fill-opacity="0.12"/>
+
+  <g transform="translate(90,196)">
+    <rect width="120" height="120" rx="32" fill="#0D47A1" stroke="#ffffff" stroke-opacity="0.25"/>
+    <path d="M36 84V36l48 48V36" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="240" y="255" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" fill="#FFFFFF">Next Byte</text>
+  <text x="560" y="255" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" fill="url(#gold)">Bank</text>
+
+  <text x="92" y="382" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">Banking Made Smarter, Faster</text>
+  <text x="92" y="432" font-family="Sora, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">&amp; More Secure.</text>
+
+  <text x="92" y="492" font-family="Inter, Arial, sans-serif" font-size="22" fill="#C9D8F0">Instant transfers · Smart loans · 24×7 secure internet banking</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">
+    <rect x="92" y="530" width="230" height="54" rx="27" fill="#FFC107"/>
+    <text x="207" y="563" text-anchor="middle" fill="#12203A">Open Account</text>
+    <rect x="340" y="530" width="260" height="54" rx="27" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.45"/>
+    <text x="470" y="563" text-anchor="middle" fill="#FFFFFF">Internet Banking</text>
+  </g>
+</svg>
